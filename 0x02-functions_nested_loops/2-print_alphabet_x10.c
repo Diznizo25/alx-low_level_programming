@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print alphabet 10x -prints 10 times the alphabet, in lower
+ * main - Entry point
+ * 
  * Description: it prints 10 times the alphabet, in lower case
  *
  * Return: aways 0
  */
+int main(void)
+{
+	return (0);
+}
 void print_alphabet_x10(void)
 {
 	int n, co;
