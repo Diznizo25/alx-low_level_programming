@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print alphabet 10x
+ * print alphabet 10x -prints 10 times the alphabet, in lower
  * Return: aways 0
  */
 void print_alphabet_x10(void)
