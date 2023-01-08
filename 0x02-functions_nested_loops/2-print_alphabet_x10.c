@@ -2,6 +2,8 @@
 #include "main.h"
 /**
  * print alphabet 10x -prints 10 times the alphabet, in lower
+ * Description: it prints 10 times the alphabet, in lower case
+ *
  * Return: aways 0
  */
 void print_alphabet_x10(void)
