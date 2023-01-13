@@ -2,13 +2,14 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: it prints 10 times the alphabet, in lower case
+ * Description - it prints 10 times the alphabet, in lower case
  *
  * Return: aways 0
  */
+void print_alphabet_x10(void);
 int main(void)
 {
-	print_alphabet_x10;
+	print_alphabet_x10(void)
 	return (0);
 }
 void print_alphabet_x10(void)
