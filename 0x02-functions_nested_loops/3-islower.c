@@ -1,11 +1,14 @@
 #include "main.h"
-#include <ctype.h>
+# include <stdio.h>
 /**
  * Descreption - thus function checks for lower case characters
  * main - entry
  * Return: always 0
  */
-int islower(char c)
+int is_lower(int c)
 {
-	return (islower(c)) ? 1 : 0;
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
