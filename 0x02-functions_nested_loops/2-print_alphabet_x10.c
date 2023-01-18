@@ -1,30 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- * Description - it prints 10 times the alphabet, in lower case
- *
- * Return: aways 0
+ * print_alhabet_x10 - prints 10 times the 
+ * alphabet, in low case
  */
-void print_alphabet_x10(void);
-int main(void)
-{
-	print_alphabet_x10(void)
-	return (0);
-}
 void print_alphabet_x10(void)
 {
-	int n, co;
+	int count = 0;
+	char letter;
 
-	co = 0;
-
-	while (co < 10)
+	while (count <= 9)
 	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			putchar(n);
-		}
-		co++;
-		putchar('\n');
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+		count++;
+		_putchar('\n');
 	}
 }
+
